@@ -1,0 +1,30 @@
+.hed{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px, 50px;
+}
+.link{
+    display: flex;
+    font-size: 50px;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
+.dark{
+    background-color: blue;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    padding: 8px, 50px;
+}
+.lghit{
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px, 50px;
+}
