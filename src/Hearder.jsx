@@ -19,21 +19,21 @@ function Header({ isDarkMode, onToggleDarkMode }) {
         <header className={`header ${isDarkMode ? 'dark' : 'light'}`}>
             <div className="container">
                 <div className="logo">
-                    <Link to="/">YourLogo</Link>
+                    <Link to="/">Logotip</Link>
                 </div>
 
                 <nav className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-                    <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
-                    <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>
-                    <Link to="/services" className={location.pathname === '/services' ? 'active' : ''}>Services</Link>
-                    <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
+                    <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Bosh sahifa</Link>
+                    <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>Biz haqimizda</Link>
+                    <Link to="/services" className={location.pathname === '/services' ? 'active' : ''}>Xizmatlar</Link>
+                    <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Aloqa</Link>
                 </nav>
 
                 <div className="header-actions">
                     <button 
                         className="theme-toggle" 
                         onClick={onToggleDarkMode}
-                        aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+                        aria-label={isDarkMode ? 'Kunduzgi rejimga o\'tish' : 'Tungi rejimga o\'tish'}
                     >
                         {isDarkMode ? <FaSun /> : <FaMoon />}
                     </button>
@@ -41,7 +41,7 @@ function Header({ isDarkMode, onToggleDarkMode }) {
                     <button 
                         className="mobile-menu-btn" 
                         onClick={toggleMobileMenu}
-                        aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+                        aria-label={isMobileMenuOpen ? 'Menyuni yopish' : 'Menyuni ochish'}
                     >
                         {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
                     </button>

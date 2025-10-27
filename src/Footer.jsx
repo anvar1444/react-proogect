@@ -11,38 +11,38 @@ function Footer() {
 
     const footerLinks = [
         {
-            title: 'Product',
+            title: 'Mahsulot',
             links: [
-                { label: 'Features', url: '/features' },
-                { label: 'Pricing', url: '/pricing' },
-                { label: 'Templates', url: '/templates' },
-                { label: 'Integrations', url: '/integrations' },
+                { label: 'Xususiyatlar', url: '/features' },
+                { label: 'Narxlar', url: '/pricing' },
+                { label: 'Shablonlar', url: '/templates' },
+                { label: 'Integratsiyalar', url: '/integrations' },
             ]
         },
         {
-            title: 'Company',
+            title: 'Kompaniya',
             links: [
-                { label: 'About Us', url: '/about' },
+                { label: 'Biz haqimizda', url: '/about' },
                 { label: 'Blog', url: '/blog' },
-                { label: 'Careers', url: '/careers' },
-                { label: 'Contact', url: '/contact' },
+                { label: 'Ish o\'rinlari', url: '/careers' },
+                { label: 'Aloqa', url: '/contact' },
             ]
         },
         {
-            title: 'Resources',
+            title: 'Resurslar',
             links: [
-                { label: 'Documentation', url: '/docs' },
-                { label: 'Guides', url: '/guides' },
-                { label: 'API Status', url: '/status' },
-                { label: 'Help Center', url: '/help' },
+                { label: 'Hujjatlar', url: '/docs' },
+                { label: 'Qo\'llanmalar', url: '/guides' },
+                { label: 'API holati', url: '/status' },
+                { label: 'Yordam markazi', url: '/help' },
             ]
         },
         {
-            title: 'Legal',
+            title: 'Huquqiy',
             links: [
-                { label: 'Privacy Policy', url: '/privacy' },
-                { label: 'Terms of Service', url: '/terms' },
-                { label: 'Cookie Policy', url: '/cookies' },
+                { label: 'Maxfiylik siyosati', url: '/privacy' },
+                { label: 'Foydalanish shartlari', url: '/terms' },
+                { label: 'Cookie siyosati', url: '/cookies' },
                 { label: 'GDPR', url: '/gdpr' },
             ]
         }
@@ -53,9 +53,9 @@ function Footer() {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <div className="logo">YourLogo</div>
+                        <div className="logo">Logotip</div>
                         <p className="brand-tagline">
-                            Building amazing web experiences with modern technologies and best practices.
+                            Zamonaviy texnologiyalar va eng yaxshi amaliyotlar bilan ajoyib veb-tajribalar yaratamiz.
                         </p>
                         <div className="social-links">
                             {socialLinks.map((social, index) => (
@@ -92,14 +92,14 @@ function Footer() {
 
                 <div className="footer-bottom">
                     <div className="copyright">
-                        &copy; {currentYear} Your Company. All rights reserved.
+                        <p> {currentYear} Sizning Kompaniyangiz. Barcha huquqlar himoyalangan.</p>
                     </div>
                     <div className="footer-legal-links">
-                        <a href="/privacy">Privacy Policy</a>
+                        <a href="/privacy">Maxfiylik siyosati</a>
                         <span className="divider">•</span>
-                        <a href="/terms">Terms of Service</a>
+                        <a href="/terms">Foydalanish shartlari</a>
                         <span className="divider">•</span>
-                        <a href="/cookies">Cookie Policy</a>
+                        <a href="/cookies">Cookie siyosati</a>
                     </div>
                 </div>
             </div>
